@@ -1,5 +1,5 @@
 const app = require('./index');
-const require = require('supertest');
+const request = require('supertest');
 
 describe('GET/users는', ()=> {
     it('...', (done)=> {
